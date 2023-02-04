@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(24, 24, 136) !important;
+  color: #fff !important;
+}
+
+
+.header {
+  background-image: url(img/cesped-artificial-padel-fibrilar-fibrilado-azul-barato-oferta-economico-azul-800x400.jpg);
+  padding:60px;
+  background-color:aquamarine;
+  text-align: center;
+  color:white;
+  font-size:30px;
+}
+
+.content {padding:20px;}
+
+.header h1 {
+ font-size-adjust: left 90px;;
+}
+
+/* .navbar {
+  background-image: url(img/cesped-artificial-padel-fibrilar-fibrilado-azul-barato-oferta-economico-azul-800x400.jpg);
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar ul {
+  list-style: none;
+} */
+
+
+.navbar a.right {
+  float: right;
+}
+
+.topplays{
+  background-color: rgb(41, 53, 224);
+}
+
+.left{
+  float: left;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: none;
+}
+
+.side {
+  width: auto;
+  border: auto  ;
+}
+
+.main {   
+  background-color:none;
+  padding: 20px;
+}
+
+.imgbela{
+  text-align: right;
+}
+
+.footera{
+  color: white;
+}
+
+footer{
+  background-image: url(img/cesped-artificial-padel-fibrilar-fibrilado-azul-barato-oferta-economico-azul-800x400.jpg);
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+.text{
+  text-align: auto;
+  width: 900px; 
+}
+
+.bela{
+display: inline;
+ text-align: left;
+   height: 400px;
+   width: 300px;
+}
+
+.tapia{
+  width: 500px;
+  height: 500px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-right: auto;
+}
+
+.coello{
+  width: 500px;
+  height: 500px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-left: 1300px
+}
+
+.fakeimg {
+  background-color: aqua;
+  padding: 35px;
+  width: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+.tablita{
+  list-style: georgian;
+}
+
+.inicio {
+  margin: center;
+  padding: center;
+  color: white;
+  padding-bottom: 554px;
+}

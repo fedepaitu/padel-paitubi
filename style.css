@@ -8,6 +8,27 @@ body {
 }
 a {
     color: inherit !important;
+    text-decoration: none;
+}
+.portada {
+    display: flex;
+    width: 600px;
+    height: 700px;
+}
+.imagenes{
+    width: 250px;
+    height: 100%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    
+}
+.portada img:hover{
+    cursor: pointer;
+    width: 350px;
+    opacity: 1;
+    filter: contrast(120%);
 }
 .navbar, footer {
     background: url(img/cesped-artificial-padel-fibrilar-fibrilado-azul-barato-oferta-economico-azul-800x400.jpg) !important;
@@ -66,8 +87,8 @@ footer {
     font-weight: bold;
     font-size: 16px;
     border: 0;
-    user-select: none;
     -webkit-user-select: none;
+    user-select:none;
     touch-action: manipulation;
     cursor: pointer; 
 }

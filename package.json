@@ -1,0 +1,26 @@
+{
+  "name": "padel-paitubi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build-css": "node-sass --incluide-path scss scss/styles.scss css/styles.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedepaitu/padel-paitubi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedepaitu/padel-paitubi/issues"
+  },
+  "homepage": "https://github.com/fedepaitu/padel-paitubi#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

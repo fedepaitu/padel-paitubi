@@ -12,16 +12,16 @@ a {
 
 .portada {
   display: flex;
-  width: 600px;
+  width: 100%;
   height: 700px; }
   .portada img:hover {
     cursor: pointer;
-    width: 350px;
+    width: 100%;
     opacity: 1;
     filter: contrast(120%); }
 
 .imagenes {
-  width: 250px;
+  width: 100%;
   height: 100%;
   flex-grow: 1;
   object-fit: cover;
